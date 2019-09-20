@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>웹연습04</title>
+    <style>
+    .tb { display:table; border:2px solid #333; width: 500px; }    
+    .tb tr { display:table-row; }
+    .tb td, .tb th { display:table-cell; border-bottom:1px dotted #333; line-height: 40px; 
+    text-align:center; }
+    </style>
+    <script></script>
+</head>
+<body>
+    <h2>테이블 요소</h2>
+    <table class="tb">
+        <caption>표 제목</caption>
+        <thead>
+            <tr>
+                <th>번호</th><th>성명</th><th>점수</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td><td>김윤정</td><td>85</td>
+            </tr>
+            <tr>
+                <td>2</td><td>박근태</td><td>80</td>
+            </tr>
+            <tr>
+                <td>3</td><td>박수인</td><td>90</td>
+            </tr>
+            <tr>
+                <td>4</td><td>이한결</td><td>75</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">통계 점수 : 330</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
