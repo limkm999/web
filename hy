@@ -110,26 +110,31 @@
   <title>Document</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script type="text/javascript">
-  $(document).ready(function(){
-    #("#hide").click(function(){
-      $("p").hide();
-    });
-    $("#show").click(function(){
-      $("p").show();
-    });
-  });
+    $(document).ready(function(){
+      $("#hide").click(function(){
+        $("p").hide();
+      });
+      $("#show").click(function(){
+        $("p").show();
+      })
 
+    });
   </script>
+
 
 
 </head>
 <body>
-  <p>If you click on the "Hide" button, I will disappear.</p>
-  <button id="hide">Hide</button>
-  <button id="show">show</button>
+
+  <p>If you click on the "hide" button, I will disappear.</p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+
+
 
 </body>
 </html>
+
 
 <!DOCTYPE html>
 <html lang="en">
